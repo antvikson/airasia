@@ -32,7 +32,9 @@
         <section class="hero">
             <h1 class="hero__title">Авторские туры по Азии</h1>
             <p class="hero__text">Открой для себя Азию</p>
-            <button class="hero__button">Подробнее</button>
+            <div class="details">
+                <a href="#" class="details__link">Подробнее</a>
+            </div>
         </section>
         <section class="hot-trips">
             <h2 class="hot-trips__heading">Горящие туры</h2>
@@ -42,7 +44,7 @@
                     <div class="trips-item__state">
                         <img src="/" alt="Таиланд" class="trips-item__pic">
                         <h3 class="trips-item__heading">Таиланд</h3>
-                        <ul class="list-info">
+                        <ul class="trips-option">
                             <li class="trips-view">
                                 <img src="/" alt="date-image" class="trips-view__pic">
                                 <p class="trips-view__duration">7-12 ночей</p>
@@ -53,14 +55,16 @@
                             </li>
                         </ul>
                         <p class="trip-info__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия</p>
-                        <button class="trip-info__details">Смотреть</button>
+                        <div class="run">
+                            <a href="" class="run__link">Смотреть</a>
+                        </div>
                     </div>
                 </li>
                 <li class="trips-item">
                     <div class="trips-item__state">
                         <img src="/" alt="Бали" class="trips-item__pic">
                         <h3 class="trips-item__heading">Бали</h3>
-                        <ul class="list-info">
+                        <ul class="trips-option">
                             <li class="trips-view">
                                 <img src="/" alt="date-image" class="trips-view__pic">
                                 <p class="trips-view__duration">7-12 ночей</p>
@@ -71,14 +75,16 @@
                             </li>
                         </ul>
                         <p class="trip-info__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия</p>
-                        <button class="trip-info__details">Смотреть</button>
+                        <div class="run">
+                            <a href="" class="run__link">Смотреть</a>
+                        </div>
                     </div>
                 </li>
                 <li class="trips-item">
                     <div class="trips-item__state">
                         <img src="/" alt="Индонезия" class="trips-item__pic">
                         <h3 class="trips-item__heading">Индонезия</h3>
-                        <ul class="list-info">
+                        <ul class="trips-option">
                             <li class="trips-view">
                                 <img src="/" alt="date-image" class="trips-view__pic">
                                 <p class="trips-view__duration">7-12 ночей</p>
@@ -89,28 +95,40 @@
                             </li>
                         </ul>
                         <p class="trip-info__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия</p>
-                        <button class="trip-info__details">Смотреть</button>
+                        <div class="run">
+                            <a href="" class="run__link">Смотреть</a>
+                        </div>
                     </div>
                 </li>
             </ul>
         </section>
         <section class="news">
-            <h2 class="news-heading">Новости и акции</h2>
+            <h2 class="news-title">Новости и акции</h2>
             <ul class="news-list">
                 <li class="news-item">
-                    <p class="news-item__date">Декабрь 2019</p>
-                    <h4 class="news-item__heading">Дешевые путевки на Новый Год!</h4>
-                    <p class="news-item__text">Проведи новый год в Таиланде</p>
+                    <div class="news-visual">
+                        <img src="/" alt="" class="news-visual__pic">
+                    </div>
+                    <div class="news-content">
+                        <p class="news-content__date">Декабрь 2019</p>
+                        <h4 class="news-content__heading">Дешевые путевки на Новый Год!</h4>
+                        <p class="news-content__text">Проведи новый год в Таиланде</p>
+                    </div>
                 </li>
                 <li class="news-item">
-                    <p class="news-item__date">Декабрь 2019</p>
-                    <h4 class="news-item__heading">Акция для серфенгистов</h4>
-                    <p class="news-item__text">В сезон больших волн скидка на путевку в Таиланд на остров серфенгистов. Удачного пути!</p>
+                    <div class="news-visual">
+                        <img src="/" alt="" class="news-visual__pic">
+                    </div>
+                    <div class="news-content">
+                        <p class="news-content__date">Декабрь 2019</p>
+                        <h4 class="news-content__heading">Акция для серфенгистов</h4>
+                        <p class="news-content__text">В сезон больших волн скидка на путевку в Таиланд на остров серфенгистов. Удачного пути!</p>
+                    </div>
                 </li>
             </ul>
-            <div class="other-news">
-                <p class="other-news_display">Страница 1 из 7</p>
-                <ul class="paginator">
+            <div class="paginator">
+                <p class="paginator__text">Страница 1 из 7</p>
+                <ul class="paginator__list">
                     <li class="paginator__item">1</li>
                     <li class="paginator__item">2</li>
                     <li class="paginator__item">3</li>
@@ -122,10 +140,21 @@
             </div>
         </section>
         <section class="preview">
-            <img src="/" alt="" class="preview__pic">
-            <h3 class="preview__heading">О нас</h3>
-            <p class="preview__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe enim fugit eos odio consequuntur commodi, dolorem sint quo aliquid culpa deserunt eveniet quia, ad doloremque voluptatum autem consectetur corporis.</p>
-            <button class="preview__details">Подробнее</button>
+            <div class="preview-image">
+                <img src="/" alt="" class="preview-image__pic">
+            </div>
+            <div class="preview-content">
+                <div class="preview-part1">
+                    <img src="/" alt="" class="preview-part1__pic">
+                </div>
+                <div class="preview-part2">
+                    <h3 class="preview-part2__heading">О нас</h3>
+                    <p class="preview-part2__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe enim fugit eos odio consequuntur commodi, dolorem sint quo aliquid culpa deserunt eveniet quia, ad doloremque voluptatum autem consectetur corporis.</p>
+                    <div class="details">
+                        <a href="#" class="details__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
         </section>
         <footer class="footer">
             <a href="/" class="logo">
