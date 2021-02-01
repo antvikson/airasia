@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6, p {
   box-sizing: border-box;
 }
 
+.main-page-wrapper {
+  background-image: url(./image/background_elephant.jpg) center top no-repeat, url(./image/background_man.jpg) center bottom no-repeat;
+}
+
 .hero {
   margin-bottom: 238px;
 }
