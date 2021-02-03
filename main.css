@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .main-page-wrapper {
-  background-image: url(./image/background_elephant.jpg) center top no-repeat, url(./image/background_man.jpg) center bottom no-repeat;
+  background: url(./image/bg/background_elephant.jpg) center top no-repeat, url(./image/bg/background_man.jpg) center bottom no-repeat;
 }
 
 .hero {
@@ -95,12 +95,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .contacts__phone {
-  display: inline-block;
+  margin-top: 8px;
+  line-height: 1;
+  display: block;
   font-size: 26px;
   text-decoration: none;
 }
 
 .contacts__dropdown-title {
+  line-height: 1.3;
   font-size: 13px;
   text-decoration: underline;
   color: #98a4a8;
@@ -182,12 +185,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .trip__option {
+  margin-bottom: 26px;
   color: #666666;
 }
 
 .trip__view {
   display: inline-block;
-  width: 120px;
+  width: 122px;
   margin: 0 25px 0 4px;
 }
 
@@ -196,6 +200,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .trip__icon {
+  margin-right: 6px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -211,26 +216,34 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .trip__text {
-  font-size: 14;
-  line-height: 1.1;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 4px;
 }
 
 .link_style_uncommon {
+  display: block;
   font-size: 14px;
   color: #f5170e;
   display: inline-block;
   background: #fff;
   border: 1px solid #f5170e;
   border-radius: 36px;
-  padding: 16px 40px;
+  padding: 15px 30px;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+  margin-left: 23px;
 }
 
 .link_style_uncommon:hover {
   background:  #da0100;
   color: #fff;
+}
+
+.trip-link_red {
+  margin-left: 23px;
+  padding: 15px 30px;
 }
 
 .news {
@@ -360,7 +373,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 5px;
   width: 490px;
   height: 505px;
-  background: url(./image/gates.jpg) center center / cover no-repeat;
+  background: url(./image/content/about/gates.jpg) center center / cover no-repeat;
   }
 
 .about__desc {
@@ -368,7 +381,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 455px;
   border-radius: 5px;
   display: inline-block;
-  background: url(./image/mountains.jpg) center center / cover no-repeat;
+  background: url(./image/content/about/mountains.jpg) center center / cover no-repeat;
   margin-left: -141px;
   margin-top: 98px;
   padding: 62px 202px 84px 80px;
@@ -390,12 +403,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer-container--content {
-  border-top: 1px solid #fff;
-  opacity: 0.1;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer {
   height: 92px;
+  padding-top: 20px;
   position: relative;
   margin-bottom: 0;
 }
@@ -425,30 +438,30 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url(./image/telegram.png);
+  background-image: url(./image/icon/telegram.png);
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-  background-image: url(./image/telegram_hover.png);
+  background-image: url(./image/icon/telegram_hover.png);
 }
 .socials__item--icon--vk .socials__link {
-  background-image: url(./image/vk.png);
+  background-image: url(./image/icon/vk.png);
 }
 
 .socials__item--icon--vk .socials__link:hover {
-  background-image: url(./image/vk_hover.png);
+  background-image: url(./image/icon/vk_hover.png);
 }
 .socials__item--icon--facebook .socials__link {
-  background-image: url(./image/facebook.png);
+  background-image: url(./image/icon/facebook.png);
 }
 
 .socials__item--icon--facebook .socials__link:hover {
-  background-image: url(./image/facebook_hover.png);
+  background-image: url(./image/icon/facebook_hover.png);
 }
 .socials__item--icon--inst .socials__link {
-  background-image: url(./image/inst.png);
+  background-image: url(./image/icon/inst.png);
 }
 
 .socials__item--icon--inst .socials__link:hover {
-  background-image: url(./image/inst_hover.png);
+  background-image: url(./image/icon/inst_hover.png);
 }
