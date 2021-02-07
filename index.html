@@ -38,15 +38,17 @@
                     <div class="hero__text-section">
                         <h1 class="hero__title">Авторские туры по Азии</h1>
                         <h5 class="hero__subtitle">Открой для себя Азию</h5>
-                        <a href="#" class="hero__link link-style_red">Подробнее</a>
+                        <a href="#" class="hero__link link-long">Подробнее</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="hot-trips">
             <div class="container">
-                <h2 class="hot-trips__title">Горящие туры</h2>
-                <img src="./image/icon/fire_icon.png" alt="fire" class="hot-trips__icon">
+                <div class="title-container">
+                    <h2 class="title-container__text">Горящие туры</h2>
+                    <img src="./image/icon/fire_icon.png" alt="fire" class="title-container__icon">
+                </div>
                 <ul class="hot-trips__list">
                     <li class="hot-trips__item trip">
                         <div class="trip__state">
@@ -68,8 +70,8 @@
                                 <p class="trip__text">Равным образом постоянное обеспечение нашей деятельности позволяет
                                     оценить
                                     значение систем массового участия</p>
+                                <a href="#" class="trip__link link_short_white">Смотреть</a>
                             </div>
-                            <a href="#" class="trip__link link_style_uncommon">Смотреть</a>
                         </div>
                     </li>
                     <li class="hot-trips__item trip">
@@ -93,8 +95,8 @@
                                     оценить
                                     значение
                                     систем массового участия</p>
+                                <a href="#" class="trip__link link_short_red">Смотреть</a>
                             </div>
-                            <a href="#" class="trip__link link-style_red trip-link_red">Смотреть</a>
                         </div>
                     </li>
                     <li class="hot-trips__item trip">
@@ -118,8 +120,8 @@
                                     оценить
                                     значение
                                     систем массового участия</p>
+                                <a href="#" class="trip__link link_short_white">Смотреть</a>
                             </div>
-                            <a href="#" class="trip__link link_style_uncommon">Смотреть</a>
                         </div>
                     </li>
                 </ul>
@@ -154,10 +156,10 @@
                 <div class="paginator">
                     <p class="paginator__text">Страница 1 из 7</p>
                     <ul class="paginator__list">
-                        <li class="paginator__item paginator__item--active">
+                        <li class="paginator__item">
                             <a href="" class="paginator__link">1</a>
                         </li>
-                        <li class="paginator__item">
+                        <li class="paginator__item paginator__item--active">
                             <a href="" class="paginator__link">2</a>
                         </li>
                         <li class="paginator__item">
@@ -206,26 +208,28 @@
         </section>-->
         <section class="preview">
             <div class="container">
-                <div class="about">
-                    <div class="about__desc">
-                        <h2 class="about__title">О нас</h2>
-                        <div class="about__desc-text">
+                <div class="preview-about">
+                    <div class="preview-about__desc">
+                        <h2 class="preview-about__title">О нас</h2>
+                        <div class="preview-about__desc-text">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum recusandae accusantium
                                 assumenda et, corporis commodi ipsam officia suscipit fuga! Ipsam fuga voluptas quae.
                                 Optio, iure. Magnam tempora voluptatibus aliquid doloribus.</p>
                         </div>
-                        <a href="#" class="preview__link link-style_red">Подробнее</a>
+                        <a href="#" class="preview-about__link link-long">Подробнее</a>
                     </div>
                 </div>
             </div>
         </section>
         <footer class="footer-container">
-            <div class="container footer-container--content">
-                <div class="footer">
-                    <a href="#" class="logo">
-                        <img src="./image/logo/logo.svg" alt="airasia" class="logo__pic">
-                    </a>
-                    <nav class="menu">
+            <div class="container">
+                <div class="footer footer-style-home">
+                    <div class="logo footer-logo">
+                        <a href="#" class="logo__link">
+                            <img src="./image/logo/logo.svg" alt="airasia" class="footer-logo__pic">
+                        </a>
+                    </div>
+                    <nav class="menu footer-menu">
                         <ul class="menu__list">
                             <li class="menu__item">
                                 <a href="/" class="menu__link">Главная</a>
@@ -252,7 +256,7 @@
                             <a href="/" class="socials__link"></a>
                         </li>
                     </ul>
-                    <address class="contacts">
+                    <address class="contacts footer-contacts">
                         <div class="contacts__desc">Бесплатный звонок по России</div>
                         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                     </address>
