@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 362px;
   background: #fff;
   border-radius: 5px;
-  margin-bottom: 2px;
+  overflow: hidden;
 }
 
 .hot-trips__item {
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .news__list {
-  margin-bottom: 46px;
+  margin-bottom: 48px;
 }
 
 .knowledge {
@@ -302,7 +302,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .knowledge__visual {
+  overflow: hidden;
   border-radius: 5px;
+}
+
+.knowledge__pic {
+  display: block;
 }
 
 .knowledge__content {
@@ -312,7 +317,7 @@ h1, h2, h3, h4, h5, h6, p {
   right: 0;
   bottom: 0;
   padding: 0px 29px;
-  min-height: 153px;
+  min-height: 142px;
 }
 
 .knowledge__date {
@@ -392,10 +397,6 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
 }*/
 
-.preview-about {
-  margin-bottom: 54px;
-}
-
 .preview-about:before {
   content: "";
   display: inline-block;
@@ -436,9 +437,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer {
-  height: 146px; 
+  height: 140px; 
   position: relative;
-  margin-bottom: 0;
+  margin-top: 56px;
 }
 
 .footer-menu {
