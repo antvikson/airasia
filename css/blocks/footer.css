@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__col--aline--right {
+  display: flex;
+  justify-content: flex-end;
+}

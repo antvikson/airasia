@@ -1,0 +1,41 @@
+.hero {
+  margin-bottom: 240px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 528px;
+}
+
+.hero__text-section {
+  width: 45%
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.36;
+  margin-bottom: 24px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  margin-bottom: 29px;
+}
+
+.link-long-red {
+  font-size: 14px;
+  display: inline-block;
+  background: #f5170e;
+  border-radius: 36px;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.link-long-red:hover {
+  background: #da0100;
+}

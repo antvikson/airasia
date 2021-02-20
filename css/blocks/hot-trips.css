@@ -1,0 +1,99 @@
+.hot-trips {
+  margin-bottom: 120px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  width: 27%;
+  margin-bottom: 12px;
+}
+
+.title-container__icon {
+  padding: 20px 0 46px  ;
+}
+
+.title-container__text {
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.hot-trips__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.trip {
+  display: flex;
+  flex-direction: column;
+  min-height: 449px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.hot-trips__item {
+  width: calc(100% / 3 - 18px);
+}
+
+.trip__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: black;
+}
+
+.trip__heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.trip__option {
+  display: flex;
+  justify-content: space-around;
+  color: #666;
+}
+
+.trip__view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trip__text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.link-short-white {
+  font-size: 14px;
+  color: #f5170e;
+  background: #fff;
+  border: 1px solid #f5170e;
+  border-radius: 36px;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.link-short-white:hover {
+  background:  #da0100;
+  color: #fff;
+}
+
+.link-short-red {
+  font-size: 14px;
+  color: #fff;
+  background: #f5170e;
+  border-radius: 36px;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.link-short-red:hover {
+  background: #da0100;
+}

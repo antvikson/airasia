@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #da0100;
+}

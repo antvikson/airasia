@@ -1,0 +1,21 @@
+.inner-section {
+  background: #f4f5f5;
+  color: black;
+  padding: 88px 0;
+}
+
+.inner-section__title {
+  font-size: 48px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 220px;
+  height: 40px;
+}
