@@ -27,7 +27,8 @@
   color: #303030;
 }
 
-.link-long-white {
+.btn--color--white {
+  align-self: stretch;
   font-size: 14px;
   color: #f5170e;
   background: #fff;
@@ -37,17 +38,18 @@
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  width: 27%;
+
 }
 
-.link-long-white:hover {
+.btn--color--white:hover {
   background:  #da0100;
   color: #fff;
 }
 
-.link-long-red {
+.btn--color--red {
+  align-items: stretch;
   color: #fff;
-  width: 27%;
+
 }
 
 .paginator__link--services:hover {

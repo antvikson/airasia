@@ -1,0 +1,28 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../../image/bg/bg.jpg) center center no-repeat;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.central__logo {
+  min-width: 279px;
+  min-height: 119px;
+  padding-top: 70px;
+}
+
+.central__tagline {
+  font-size: 18px;
+  line-height: 1;
+}

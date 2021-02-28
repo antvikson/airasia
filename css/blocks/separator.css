@@ -1,0 +1,15 @@
+.separator {
+  min-height: 363px;
+  background: url(../../image/bg/middleline.jpg) center center no-repeat, url(../../image/bg/couple.png) right 20% bottom 110% no-repeat/*второго слоя не видно, но он где то есть)))*/;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__content {
+  max-width: 50%;
+}
+
+.separator__title {
+  font-size: 48px;
+}

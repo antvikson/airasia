@@ -35,6 +35,12 @@ body {
   width: 1140px;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -49,7 +55,7 @@ ul {
   margin: 0;
 }
 
-ul li {
+ul, li {
   list-style: none;
 }
 

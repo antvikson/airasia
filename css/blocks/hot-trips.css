@@ -66,7 +66,8 @@
   line-height: 1.5;
 }
 
-.link-short-white {
+.btn--color--white {
+  align-self: stretch
   font-size: 14px;
   color: #f5170e;
   background: #fff;
@@ -78,12 +79,13 @@
   text-transform: uppercase;
 }
 
-.link-short-white:hover {
+.btn--color--white:hover {
   background:  #da0100;
   color: #fff;
 }
 
-.link-short-red {
+.btn--color--red {
+  align-self: stretch;
   font-size: 14px;
   color: #fff;
   background: #f5170e;
@@ -94,6 +96,6 @@
   text-transform: uppercase;
 }
 
-.link-short-red:hover {
+.btn--color--red:hover {
   background: #da0100;
 }
