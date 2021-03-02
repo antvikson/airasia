@@ -1,6 +1,12 @@
-.menu {
+.menu__list {
+  display: flex;
+  
+}
+
+.menu__item {
   display: flex;
   justify-content: space-between;
+
 }
 
 .menu__link {
